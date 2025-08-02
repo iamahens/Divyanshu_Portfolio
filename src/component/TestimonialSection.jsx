@@ -3,13 +3,13 @@ import React, { useState, useEffect } from 'react';
 function TestimonialSection() {
   // Array of placeholder image URLs for WhatsApp screenshots
   const testimonials = [
-    "https://placehold.co/400x600/25D366/FFFFFF?text=WhatsApp+Testimonial+1",
-    "https://placehold.co/400x600/25D366/FFFFFF?text=WhatsApp+Testimonial+2",
-    "https://placehold.co/400x600/25D366/FFFFFF?text=WhatsApp+Testimonial+3",
-    "https://placehold.co/400x600/25D366/FFFFFF?text=WhatsApp+Testimonial+4",
-    "https://placehold.co/400x600/25D366/FFFFFF?text=WhatsApp+Testimonial+5",
-    "https://placehold.co/400x600/25D366/FFFFFF?text=WhatsApp+Testimonial+6",
-    "https://placehold.co/400x600/25D366/FFFFFF?text=WhatsApp+Testimonial+7",
+    "/image1.jpg",
+    "/image2.jpg",
+    "/image3.jpg",
+    "/image4.jpg",
+    "/image5.jpg",
+    "/image6.jpg",
+    "/image7.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -35,7 +35,7 @@ function FAQSection() {
   };
 
   return (
-    <div className="w-full bg-white py-12 px-4 flex flex-col items-center">
+    <div className="w-full bg-white py-12 px-4 flex flex-col items-center mb-24 ">
       <h2 className="text-2xl md:text-3xl font-bold text-green-600 text-center mb-10">
         Frequently Asked Questions
       </h2>

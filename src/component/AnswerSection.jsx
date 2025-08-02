@@ -3,19 +3,19 @@ import React from 'react';
 function AnswerSection() {
   const answerCards = [
     {
-      image: "https://placehold.co/300x200/FFD700/000000?text=Learn+New+Skills",
+      image: "https://res.cloudinary.com/dtgprnnga/image/upload/v1736089747/Client/pdwteixagtvouyt0rpkr.png",
       alt: "Learn New Skills",
       title: "Learn New Skills",
       description: "Learning new skills opens doors to endless possibilities, fostering growth and adaptability. Embrace the challenge to unlock your true potential.",
     },
     {
-      image: "https://placehold.co/300x200/A9A9A9/000000?text=Work+From+Home",
+      image: "https://res.cloudinary.com/dtgprnnga/image/upload/v1736089658/Client/vrjxbn44myvtcubc0jah.jpg",
       alt: "Work From Home",
       title: "Work From Home",
       description: "Work from home offers flexibility & comfort, empowering you to balance productivity. It's the modern way to achieve professional success.",
     },
     {
-      image: "https://placehold.co/300x200/ADD8E6/000000?text=Financial+Stability",
+      image: "https://res.cloudinary.com/dtgprnnga/image/upload/v1736089800/Client/fmt2u9cueqn5rrfdtywy.jpg",
       alt: "Financial Stability",
       title: "Financial Stability",
       description: "Financial stability provides peace of mind and the freedom to pursue your dreams. It's the foundation of a secure and fulfilling life.",

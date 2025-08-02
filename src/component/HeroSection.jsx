@@ -4,7 +4,7 @@ import React from 'react';
 function HeroSection() {
   const handleRegisterClick = () => {
     // Replace with your actual registration link
-    window.open('https://www.whatsapp.com/', '_blank');
+    window.open("https://wa.me/917007882824?text=Hi!%20I'm%20interested%20in%20the%20Skill%20Growth%20%26%20Earn%20from%20Home.%20Please%20share%20more%20details%20about%20the%20webinar.%20Thanks!", '_blank');
   };
 
   return (
@@ -16,7 +16,7 @@ function HeroSection() {
 
       {/* Main Title */}
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-4">
-        1 Hour Exclusive <span className="text-green-400">Live Webinar</span> By Nasreen Fatima Mam
+        1 Hour Exclusive <span className="text-green-400">Live Webinar</span> By Divyanshu Verma
       </h1>
 
       {/* Subtitle */}
@@ -64,7 +64,7 @@ function HeroSection() {
         {/* Right Section - Image */}
         <div className="w-full lg:w-1/2 flex justify-center items-center">
           <img
-            src="https://placehold.co/400x250/000000/FFFFFF?text=Webinar+Image"
+            src="/gallery9.jpg"
             alt="Webinar Presenters"
             className="rounded-lg shadow-md max-w-full h-auto"
             onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/400x250/CCCCCC/000000?text=Image+Not+Found'; }}
